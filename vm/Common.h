@@ -85,10 +85,12 @@
 typedef uint8_t             u1;
 typedef uint16_t            u2;
 typedef uint32_t            u4;
+#define u8 dalvik_u8
 typedef uint64_t            u8;
 typedef int8_t              s1;
 typedef int16_t             s2;
 typedef int32_t             s4;
+#define s8 dalvik_s8
 typedef int64_t             s8;
 
 /*
